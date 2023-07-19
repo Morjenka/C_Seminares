@@ -10,6 +10,6 @@ int start = N * (-1);
 while (start <= N)
 {
     Console.Write(start + " ");
-    start++;
+    start+=2;
 }
  
