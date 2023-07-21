@@ -10,7 +10,7 @@ int number = int.Parse(Console.ReadLine());
 if (number >= 100 && number <1000)
 {
     int res = number % 10;
-    Console.WriteLine(res + "= последняя цифра числа" + number);
+    Console.WriteLine(res + "= последняя цифра числа" +  number);
 
 }
 else
