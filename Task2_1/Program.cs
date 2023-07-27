@@ -19,7 +19,7 @@ int GetFirstDigit (int number1)
 }
 
 int num  =  GetRandomNumber(); //Присваиваем числу случ число
-int FirstDigit = GetFirstDigit (num);
+int FirstDigit = GetFirstDigit (num);//Получили первую цифру числа
 // Console.WriteLine(FirstDigit); //Если надо будет вывести на экран
 
 int GetLastDigit (int namber2)
@@ -28,10 +28,10 @@ int GetLastDigit (int namber2)
     return namber2;
 }
 
-int LastDigit = GetLastDigit (num);
+int LastDigit = GetLastDigit (num);//Получили вторую цифру числа
 // Console.WriteLine(LastDigit);
 
-void ShowLargestDigit(int FirstDigit, int LastDigit)
+void ShowLargestDigit(int FirstDigit, int LastDigit)//Метод сравнения двух чисел
 {
     if (FirstDigit > LastDigit)
     {
@@ -40,7 +40,7 @@ void ShowLargestDigit(int FirstDigit, int LastDigit)
     else 
     Console.Write("-> " + LastDigit);
 }
-ShowLargestDigit(FirstDigit, LastDigit);
+ShowLargestDigit(FirstDigit, LastDigit);//Сравнили два числа
 
 
 
